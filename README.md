@@ -1,4 +1,3 @@
 # inandout-web
-iao
-<a href="https://iaotrading.netlify.app/" target="_blank" >IOA TRADING WEB</a>
+<a href="https://iaotrading.netlify.app/" target="_blank" >IN AND OUT TRADING WEB</a>
 

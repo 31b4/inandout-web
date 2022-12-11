@@ -1,25 +1,38 @@
 
 body{
-    background-image: url(bck.jpg);
+    font-family:monospace;
     background-size: cover;
     color: whitesmoke;
+    background-color: #262626;
 }
 h1{
     font: 40px "Roboto Mono", monospace;
     text-align: center;
 }
 #main{
-    font: 20px "Roboto Mono", monospace;
-    width: max-content;
-    margin: auto;
-    margin-top: 5%;
+    font: 25px "Roboto Mono", monospace;
+    width: auto;
+
+    margin: 5%;
+    
     text-align: center;
-    background-color: rgb(255, 255, 255,0.1);
+    background-color: "#bdc1e7";
     border-radius: 30px;
     padding: 40px;    
 
 }
-
+#contanier{
+    height: 2000px !important;
+}
+a{
+    color: #262626;
+}
+.nav-item img{
+    width: 200px;
+}
+#menu{
+    background-color: black;
+}
 
 
 

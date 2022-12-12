@@ -10,38 +10,37 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
     <!----------------------------->
     <link rel="stylesheet" href="src/style.css">
+    <link rel="icon" type="image/jpg" href="/assets/IAOT_Logo.png">
     <title>IAO Trading</title>
 </head>
 <body>
     <nav class="navbar">
         <div class="logo logo-show-sm"><a href="#"><img src="assets/IAOT_Logo.png" alt=""></a></div>
         <ul class="menu">
-            <li><a href="#">Schedule</a></li>
-            <li><a href="#">Roadmap</a></li>            
+            <li class="categories"><a href="#">Schedule</a></li>
+            <li class="categories"><a href="#">Roadmap</a></li>            
             <li class="logo logo-show-md"><a href="#"><img src="assets/IAOT_Logo.png" alt="iao_logo"></a></li>
-            <li><a href="#">Resources</a></li>
-            <li><a href="#">Links</a></li>
+            <li class="categories"><a href="#">Resources</a></li>
+            <li class="categories"><a href="#">About</a></li>
         </ul>
     </nav>
-
-    <div id="maindiv">
-        <div id="hello">
+    
+    <div id="maindiv" class="row">
+        <div id="title" class="bold">
             <h1>You have woken up!</h1><br><br>
-            <ul style="list-style-type:none">
-                <li>Want to learn how to trade and talk to like-minded people?</li>
+        </div>
+        <div class="col" id="hello">
+            <ul>
+                <li class="highlight bold">Be on the right side of the markets!</li>
                 <br>
-                <li>Then In and Out Trading is for you! 📈</li>
-                <br>
-                <li>You will be a part of a good community 🤝</li>
-                <li>We have lots of resources that you can learn from 📚</li>
-                <li>1-1 Support 🆘</li>
-                <li>Giveaways 🎉</li>
-                <li>Weekly updates ✅ and more!</li>
-                <br>
-                <li>Come <a href="https://discord.gg/nE7un7NRPq">join</a> us and I hope you will enjoy your stay! 📊</li>
-                
+                <li>Our team's mission is to help and teach others how to trade and escape the rat race.</li>
+                <li>No previous knowledge needed.</li>
             </ul>
         </div>
+        <div class="col" style="text-align: center;">
+            <iframe src="https://discord.com/widget?id=1043655320733491362&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+        </div>
+
     </div>
 </body>
 </html>

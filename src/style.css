@@ -16,7 +16,7 @@ body{
     border-radius: 30px;
     background-color: #666a743b;
     padding: 30px;
-    padding-bottom:30px ;
+    padding-bottom:30px;
 }
 #maindiv h1{
     text-align: center;
@@ -51,6 +51,17 @@ body{
     margin: auto;
     border-radius: 12px;
 }
+/*home content*/
+#topgs{
+    width: 100%;
+    border-radius: 30px;
+    min-width: 200px;
+    max-width: 500px;
+}
+.welcome{
+    text-align: center;
+}
+/*-------------Resources--------------*/
 #category{
     width: 80%;
     height: auto;
@@ -59,7 +70,8 @@ body{
     border-radius: 30px;
     background-color: #666a743b;
     padding: 30px;
-    padding-bottom:30px ;
+    padding-bottom:30px;
+ 
 }
 #category .col{
     background-color: rgb(88, 88, 88);
@@ -72,7 +84,8 @@ body{
     padding: 10px;
 }
 #category p{
-    font-size: 28px;
+    font-size: 35px;
+    font-weight: bolder;
 }
 #category ul{
     list-style: none;
@@ -80,10 +93,29 @@ body{
     padding: 0;
 }
 #category a{
+    text-decoration: none;
     color: white;
+    transition: 0.2s;
+    font-size: 20px;
+    font-weight: bold;
+}
+#category a:hover{
+    color: rgb(0, 191, 255);
+    transition: 0.2s;
+    font-size: 25px;
 }
 #category li{
     margin-top: 10px;
+}
+.levels a{
+    text-decoration: none;
+    color: rgb(0, 191, 255);
+    transition: 0.3s;
+}
+.levels a:hover{
+    color: white;
+    transition: 0.3s;
+    font-size: 45px;
 }
 @media screen and (min-width: 600px){
     #title h1{font-size: 60px;}
@@ -97,19 +129,89 @@ body{
     #dc{width: 250px;height: 350px;}
     #category .col{margin-left: 10px;}
 }
-
-
-
-/*home content*/
-#topgs{
-    width: 100%;
-    border-radius: 30px;
-    min-width: 200px;
-    max-width: 500px;
+@media screen and (max-width: 480px){
+    #dc{width: 200px;height: 300px;}
 }
-.welcome{
+/*-------------about--------------*/
+#aboutdiv{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 30px;
+    background-color: #666a743b;
+    padding: 30px;
+    padding-bottom:30px;
+}
+#aboutdiv h1{
     text-align: center;
 }
+
+
+
+#socials{
+    width: 80%;
+    height: auto;
+    margin-top: 30px;
+    border-radius: 30px;
+    background-color: #666a743b;
+    padding: 30px;
+    padding-bottom:30px;
+    margin: 10px;
+    text-align: center;
+    min-width: 270px;
+}
+#socials .col{
+    background-color: rgb(88, 88, 88);
+    border-radius: 12px;
+    width: 40px;
+    height: auto;
+    margin: 30px;
+    min-width: 260px;
+    text-align: center;
+    padding: 10px;
+}
+#socials a{
+    font-size: 25px;
+    color: white;
+    text-decoration:none;
+    transition: 0.2s;
+}
+#socials a:hover{
+    font-size: 30px;
+    transition: 0.2s;
+    color: #738ADB;
+}
+#socials img{
+    width: 50px;
+}
+#socials li{
+    text-align: left;
+}
+
+@media screen and (min-width: 5000px){
+    #socials{min-width: 270px;}
+}
+
+@media screen and (max-width: 1411px){   
+    #aboutdiv{min-width: 400px;width: 90%;}
+}
+@media screen and (max-width: 1000px){
+    #aboutdiv{margin-left: auto;margin-right: auto;width:90%;}
+    #aboutdiv #aboutdiv{
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 530px){
+    #aboutdiv{min-width: 200px;margin-left: auto;margin-right: auto;width:90%;}
+    #socials{min-width: 200px;}
+    #aboutdiv.row{padding-right: 0;}
+    #title h1{font-size: 40px; margin: 0;}
+    #title{padding: 0;height: auto;}
+}
+
 /*----------------------navbar-------------------------*/
 .menu li.categories{
     list-style: none;
@@ -238,4 +340,10 @@ footer a{
     border-radius: 8px;
     margin-left: 10px;
     margin-right: 7px;
+    transition: 0.5s;
+}
+#social_medias img:hover{
+    -webkit-filter: grayscale(1) invert(1);
+    filter: grayscale(1) invert(1);
+    transition: 0.5s;
 }

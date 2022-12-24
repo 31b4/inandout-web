@@ -13,9 +13,3 @@ $(document).ready(function (params) {
         }
     }            
 })
-
-
-function ScrollTo(here){
-    console.log(here)
-    document.getElementById(here).scrollIntoView();
-}

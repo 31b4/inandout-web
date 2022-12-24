@@ -51,6 +51,16 @@ body{
     margin: auto;
     border-radius: 12px;
 }
+#teleIMG{
+    width: 200px;
+
+    transition: 0.3s;
+}
+#teleIMG:hover{
+    width: 250px;
+
+    transition: 0.3s;
+}
 /*home content*/
 #topgs{
     width: 100%;
@@ -300,6 +310,71 @@ body{
 
 @media screen and (max-width: 600px){   
     .menu a{font-size: 20px;}
+}
+/*----------------------roadmap-------------------------*/
+#calendar{
+    width: 1300px;
+    height: 1000px;
+}
+@media screen and (max-width: 1750px){   
+    #calendar{
+        width: 1200px;
+        height: 1000px;
+    }
+}
+@media screen and (max-width: 1650px){   
+    #calendar{
+        width: 1100px;
+        height: 900px;
+    }
+}
+@media screen and (max-width: 1470px){   
+    #calendar{
+        width: 1000px;
+        height: 900px;
+    }
+}
+@media screen and (max-width: 1350px){   
+    #calendar{
+        width: 900px;
+        height: 800px;
+    }
+}
+@media screen and (max-width: 1250px){   
+    #calendar{
+        width: 800px;
+        height: 700px;
+    }
+}
+@media screen and (max-width: 1150px){   
+    #calendar{
+        width: 700px;
+        height: 600px;
+    }
+}
+@media screen and (max-width: 1000px){   
+    #calendar{
+        width: 600px;
+        height: 500px;
+    }
+}
+@media screen and (max-width: 900px){   
+    #calendar{
+        width: 500px;
+        height: 400px;
+    }
+}
+@media screen and (max-width: 800px){   
+    #calendar{
+        width: 400px;
+        height: 350px;
+    }
+}
+@media screen and (max-width: 600px){   
+    #calendar{
+        width: 230px;
+        height: 300px;
+    }
 }
 /*----------------------footer-------------------------*/
 .listFooter {

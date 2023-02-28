@@ -311,7 +311,7 @@ background-color: white;
 }
 
 
-.menu{margin: 0;padding: 0;list-style: none; }
+.menu{margin: 0;padding: 0;list-style: none; background-color:black;}
 .menu a{display: block; text-decoration: none; font-size: 40px; color: #e3e3e3; padding: 5px 10px}
 .logo a,
 .logo img{display: block; width: 80px; padding: 0;}
